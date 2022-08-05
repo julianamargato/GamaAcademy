@@ -3,16 +3,15 @@ public class Livro {
 
     private String titulo;
     private int codautor;
-    private int ano;
     private int edicao;
     private String editora;
     private int isbn;
 
-    public Livro(String titulo, int codautor, int npag, int edicao, String editora, int isbn) {
+    public Livro(String titulo, int codautor, int edicao, String editora, int isbn) {
         this.titulo = titulo;
         this.codautor = codautor;
-        this.editora = editora;
         this.edicao = edicao;
+        this.editora = editora;
         this.isbn = isbn;
     }
     public String getTitulo() {
@@ -61,7 +60,7 @@ public class Livro {
     }
     
     public String exibirLivro() {
-		return titulo + " / " + codautor + " / " + ano + " / " + edicao + " / " + editora + " / " + isbn;
+		return titulo + " / " + codautor + " / " + edicao + " / " + editora + " / " + isbn;
 	}
 
 

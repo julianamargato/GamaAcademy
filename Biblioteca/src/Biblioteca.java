@@ -12,7 +12,7 @@ public class Biblioteca {
 		Autor a = new Autor(1, "Prof. Luis", "luisescritor@melhoresescritores.com.br", "https://luisescritor.wordpress.com");
 		
 		// cadastrar livro com cod_autor
-		Livro li = new Livro("Eclipse ", 1, 2022, 01, "Gama ", 1234);
+		Livro li = new Livro("Eclipse ", 3, 4, "Gama ", 1234);
 		
 		System.out.println("Autor do Livro: ");
 		System.out.println(a.exibirInfoAutor());
