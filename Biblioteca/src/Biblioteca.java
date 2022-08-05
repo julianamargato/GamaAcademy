@@ -7,12 +7,18 @@ public class Biblioteca {
 		
 		System.out.println("Dados do Usuario: ");
 		System.out.println(u.exibirInfo());
-
 		
-		Livro li = new Livro("Eclipse ", "Prof. Luis", 2022, 01, "Gama ", 1234);
+		// cadastrar autor
+		Autor a = new Autor(1, "Prof. Luis", "luisescritor@melhoresescritores.com.br", "https://luisescritor.wordpress.com");
+		
+		// cadastrar livro com cod_autor
+		Livro li = new Livro("Eclipse ", 1, 2022, 01, "Gama ", 1234);
+		
+		System.out.println("Autor do Livro: ");
+		System.out.println(a.exibirInfoAutor());
 		
 		System.out.println("Dados do Livro: ");
-		System.out.println(li.exibirInfo1());
+		System.out.println(li.exibirLivro());
 		
 		Exemplar e = new Exemplar(01234, false, false);
 		

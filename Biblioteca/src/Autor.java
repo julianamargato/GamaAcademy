@@ -51,5 +51,7 @@ public class Autor {
 				+ ", siteAutor=" + siteAutor + "]";
 	}
 	
-	
+    public String exibirInfoAutor() {
+		return codAutor + " / " + nomeAutor + " / " + emailAutor + " / " + siteAutor;
+	}
 }
