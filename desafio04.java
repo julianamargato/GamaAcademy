@@ -9,7 +9,7 @@
 
 import java.util.Scanner;
 
-public class desafio05 {
+public class desafio04 {
 
     public static void main(String[] args) {
         Scanner teclado = new Scanner(System.in);
@@ -21,7 +21,7 @@ public class desafio05 {
         for (int i = 0; i < 10; i++){
             for (int j = 0; j < 2; j++){
                 //System.out.println("Informe a altura da " + i+1 + " pessoa:");
-                System.out.println("Matriz["+i+"]["+j+"]";
+                System.out.println("Matriz["+i+"]["+j+"]");
                 // se j = 1 -> altura
                 // se j = 2 -> sexo
                 // sexo = 1 -> masculino
@@ -35,5 +35,5 @@ public class desafio05 {
 
 
         teclado.close();
-    
+    }
 }

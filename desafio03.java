@@ -1,12 +1,12 @@
 /**
- * Desafio 04
+ * Desafio 03
  * Fazer um programa em Java que armazene o nome, a idade e a altura dos usuários. 
  * No final mostre como saída quantas pessoas acima de 25 anos e maiores de 1.75 participaram da pesquisa.
  */
 
 import java.util.Scanner;
 
-public class desafio04{
+public class desafio03{
     public static void main(String[] args) {
 
         Scanner scn = new Scanner(System.in);
