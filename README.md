@@ -1,17 +1,17 @@
-# Academia Gama 
+# Gama Academy - Kratos Group 
 
-## Desafios
+## Challenges
 
-- [Desafio 01](desafio01.java)
-- [Desafio 02](desafio02.java)
-- [Desafio 03](desafio03.java)
-- [Desafio 04](desafio04.java)
+- [Challenge 01](desafio01.java)
+- [Challenge 02](desafio02.java)
+- [Challenge 03](desafio03.java)
+- [Challenge 04](desafio04.java)
 
-## Sistema 
+## App 
 
 [Biblioteca](./Biblioteca/src/Biblioteca.java)
 
-## Contribuidores
+## Contributors
 
 <a href="https://github.com/julianamargato/GamaAcademy/graphs/contributors">
   <img src="https://contrib.rocks/image?repo=julianamargato/GamaAcademy" />
