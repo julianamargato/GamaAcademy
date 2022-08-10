@@ -62,6 +62,11 @@ public class Livro {
     public String exibirLivro() {
 		return titulo + " / " + codautor + " / " + edicao + " / " + editora + " / " + isbn;
 	}
+    
+    public void alterarTituloLivro(String novoTitulo) {
+    	titulo = novoTitulo;
+     	
+    }
 
 
 }
